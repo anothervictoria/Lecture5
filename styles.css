@@ -5,4 +5,50 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 10px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+.main-content {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 20px;
+  float: left;
+}
+
+.sidebar-content {
+  background-color: rgb(193, 187, 187);
+  width: 30%;
+  box-sizing: border-box;
+  padding: 20px;
+  float: left;
+}
+
+.header {
+  background-color: rgb(65, 65, 65);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.navigation-content {
+  background-color: rgb(110, 107, 107);
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.footer-content {
+  background-color: rgb(65, 65, 65);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
 }
